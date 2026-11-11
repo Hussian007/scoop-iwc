@@ -1,0 +1,40 @@
+{
+  "version": "0.1.0",
+  "description": "IWC Framework CLI: create, develop, test, build and deploy IWC applications",
+  "homepage": "https://github.com/Hussian007/iwc",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://github.com/Hussian007/iwc/blob/main/LICENSE"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Hussian007/iwc/releases/download/v0.1.0/iwc_0.1.0_windows_amd64.zip",
+      "hash": "b47cd8bce1ae4da75951e835d6bd660dd36de66ab14b0a4117ff601b7ac27f11",
+      "extract_dir": "iwc_0.1.0_windows_amd64"
+    },
+    "arm64": {
+      "url": "https://github.com/Hussian007/iwc/releases/download/v0.1.0/iwc_0.1.0_windows_arm64.zip",
+      "hash": "2786b664ada065660b61631b590b2e03e9fb39fc4ad6024a68c6c3ead27f91f9",
+      "extract_dir": "iwc_0.1.0_windows_arm64"
+    }
+  },
+  "bin": "bin\\iwc.exe",
+  "checkver": {
+    "github": "https://github.com/Hussian007/iwc"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Hussian007/iwc/releases/download/v$version/iwc_$version_windows_amd64.zip",
+        "extract_dir": "iwc_$version_windows_amd64"
+      },
+      "arm64": {
+        "url": "https://github.com/Hussian007/iwc/releases/download/v$version/iwc_$version_windows_arm64.zip",
+        "extract_dir": "iwc_$version_windows_arm64"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.txt"
+    }
+  }
+}
