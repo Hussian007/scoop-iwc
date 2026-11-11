@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "IWC Framework CLI: create, develop, test, build and deploy IWC applications",
   "homepage": "https://github.com/Hussian007/iwc",
   "license": {
@@ -8,14 +8,14 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Hussian007/iwc/releases/download/v0.2.1/iwc_0.2.1_windows_amd64.zip",
-      "hash": "af3e0de2e43a3c523b6c4cb1b907a57019116a83641c9b78b7f6756baa621b47",
-      "extract_dir": "iwc_0.2.1_windows_amd64"
+      "url": "https://github.com/Hussian007/iwc/releases/download/v0.2.2/iwc_0.2.2_windows_amd64.zip",
+      "hash": "d7ff9f2e75c1cab1bf4d12cc5e5201e0e2c2d598386cae069ffe781194681c80",
+      "extract_dir": "iwc_0.2.2_windows_amd64"
     },
     "arm64": {
-      "url": "https://github.com/Hussian007/iwc/releases/download/v0.2.1/iwc_0.2.1_windows_arm64.zip",
-      "hash": "67e4db6afed0fd31e22be5ce0616d96fc2c85e854fb02d47baabdb745dc24a20",
-      "extract_dir": "iwc_0.2.1_windows_arm64"
+      "url": "https://github.com/Hussian007/iwc/releases/download/v0.2.2/iwc_0.2.2_windows_arm64.zip",
+      "hash": "b3f692a9955dde867b031dd88b57127e5bab6ad3331b8b0148261a40fa64b7a0",
+      "extract_dir": "iwc_0.2.2_windows_arm64"
     }
   },
   "bin": "bin\\iwc.exe",
